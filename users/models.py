@@ -10,7 +10,7 @@ class Profile(models.Model):
     def __str__(self):
         return f'{self.user.username} Profile'
 
-    def save(self):#basically overriding the save method
+    def save(self, *args, **kwargs):#basically overriding the save method
         super().save()#just redoing the super class save method
 
         img = Image.open(self.image.path)#opens the image of the current instance
