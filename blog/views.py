@@ -3,6 +3,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
 from django.views.generic import ListView,DetailView,CreateView,UpdateView,DeleteView
 from django.contrib.auth.models import User
 from .models import Post
+from users.models import Profile
+#from .customized_dataset_using_naivebayes import *
 
 # Create your views here.
 # def home(request):
@@ -30,6 +32,10 @@ class UserPostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
+
+class CourseListView(ListView):
+    model = User
+    template_name = 'blog/course_detail.html'
 
 class PostCreateView(LoginRequiredMixin,CreateView):
     model = Post
