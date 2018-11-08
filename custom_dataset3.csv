@@ -1,0 +1,300 @@
+question,category
+What is Abstraction?,Object Oriented Programming
+How do you traverse a given binary tree in preorder without recursion?,Data Structures
+What is function overloading? ,Object Oriented Programming
+What is operator overloading? ,Object Oriented Programming
+What is method overriding? ,Object Oriented Programming
+Difference between overloading and overriding? ,Object Oriented Programming
+What is dynamic or run time polymorphism? ,Object Oriented Programming
+Which OOPS concept exposes only necessary information to the calling functions? ,Object Oriented Programming
+Which is an interface? ,Object Oriented Programming
+What is the default access modifier in a class? ,Object Oriented Programming
+In what areas do data structures are applied?,Data Structures
+What is LIFO?,Data Structures
+What are binary trees?,Data Structures
+What is FIFO?,Data Structures
+What is the difference between a PUSH and a POP?,Data Structures
+How does variable declaration affect memory allocation?,Data Structures
+How do you insert a new item in a binary search tree?,Data Structures
+What are ARRAYs?,Data Structures
+What is the minimum number of queues needed when implementing a priority queue?,Data Structures
+Which sorting algorithm is considered the fastest?,Data Structures
+Give a basic algorithm for searching a binary search tree.,Data Structures
+What is a bubble sort and how do you perform it?,Data Structures
+What is Fibonacci search?,Data Structures
+Briefly explain recursive algorithm.,Data Structures
+Write basic concepts of OOPS? ,Object Oriented Programming
+Define a constructor? ,Object Oriented Programming
+What is the  importance of Polymorphism? ,Object Oriented Programming
+What is the importance of  Inheritance? ,Object Oriented Programming
+What are different types of arguments? ,Object Oriented Programming
+What is an interface? ,Object Oriented Programming
+What is exception handling? ,Object Oriented Programming
+Difference between class and an object?,Object Oriented Programming
+What are sealed modifiers?,Object Oriented Programming
+What are the various types of constructors? ,Object Oriented Programming
+What is early and late binding?,Object Oriented Programming
+What is the difference between structure and a class? ,Object Oriented Programming
+Do we require a parameter for constructors? ,Object Oriented Programming
+Which keyword can be used for overloading? ,Object Oriented Programming
+What is the difference between new and override? ,Object Oriented Programming
+What is the super keyword? ,Object Oriented Programming
+What is the use of finalize method? ,Object Oriented Programming
+What is static and dynamic binding?,Object Oriented Programming
+What is the difference between structure and a class?,Object Oriented Programming
+What is dynamic or run time polymorphism?,Object Oriented Programming
+What are the different ways for a method to be overloaded?,Object Oriented Programming
+How a program can be structured using the concept of Object oriented programming?,Object Oriented Programming
+What are the features that are provided to make a program modular?,Object Oriented Programming
+Write a program to show the inheritance used in a class.,Object Oriented Programming
+What is the syntax of object oriented method call?,Object Oriented Programming
+What is the difference between data hiding and implementation?,Object Oriented Programming
+What are the properties that are defined in an Object model?,Object Oriented Programming
+Why is message passing between the objects important?,Object Oriented Programming
+What is the main use of message metaphor in object-oriented programming?,Object Oriented Programming
+Why is class hierarchies managed in object-oriented programming?,Object Oriented Programming
+What are the methods required to create changes in Subclasses?,Object Oriented Programming
+What is the function of dynamic typing?,Object Oriented Programming
+Why dynamic binding is used in object-oriented programming?,Object Oriented Programming
+What is the purpose of late binding in object-oriented programming?,Object Oriented Programming
+What is the difference between Aggregation and composition?,Object Oriented Programming
+Can the overridden methods in case of inheritance have different return type ?,Object Oriented Programming
+Difference between data encapsulation vs abstraction,Object Oriented Programming
+What is asymptotic analysis of an algorithm?,Data Structures
+What are asymptotic notations?,Data Structures
+What are some examples of dynamic programming algorithms?,Data Structures
+What are some examples of divide and conquer algorithms?,Data Structures
+How the difference between a stack and a queue?,Data Structures
+What is interpolation search technique?,Data Structures
+What is the prefix and post fix notation of (a + b) * (c + d) ?,Data Structures
+What is a minimum spanning tree (MST)?,Data Structures
+What is an AVL Tree?,Data Structures
+What is shell sort?,Data Structures
+How depth first traversal works?,Data Structures
+What Are The Issues That Hamper The Efficiency In Sorting A File?,Data Structures
+Is Any Implicit Arguments Are Passed To A Function When It Is Called?,Data Structures
+What Is The Data Structures Used To Perform Recursion?,Data Structures
+Minimum Number Of Queues Needed To Implement The Priority Queue?,Data Structures
+What Is The Type Of The Algorithm Used In Solving The 8 Queens Problem?,Data Structures
+What Is A Spanning Tree?,Data Structures
+Difference Between Calloc And Malloc ?,Data Structures
+How Is Any Data Structure Application Is Classified Among Files?,Data Structures
+What Member Function Places A New Node At The End Of The Linked List?,Data Structures
+How Is The Front Of The Queue Calculated ?,Data Structures
+Which Process Places Data At The Back Of The Queue?,Data Structures
+What Is The Relationship Between A Queue And Its Underlying Array?,Data Structures
+What Method Removes The Value From The Top Of A Stack?,Data Structures
+What Method Is Used To Place A Value Onto The Top Of A Stack?,Data Structures
+Run Time Memory Allocation Is Known As ?,Data Structures
+How Do You Assign An Address To An Element Of A Pointer Array ?,Data Structures
+Why Do We Use A Multidimensional Array?,Data Structures
+How Many Parts Are There In A Declaration Statement?,Data Structures
+How Memory Is Reserved Using A Declaration Statement ?,Data Structures
+What Is Precision?,Data Structures
+How To Check Whether A Linked List Is Circular ?,Data Structures
+Whether Linked List Is Linear Or Non-linear Data Structure?,Data Structures
+"If You Are Using C Language To Implement The Heterogeneous Linked List, What Pointer Type Will You Use?",Data Structures
+How Many Different Trees Are Possible With 10 Nodes ?,Data Structures
+How Can I Search For Data In A Linked List?,Data Structures
+Define Static Data Structures?,Data Structures
+Define Dynamic Data Structures?,Data Structures
+State The Different Types Of Linked Lists?,Data Structures
+List Out The Advantages Of Using A Linked List?,Data Structures
+State The Difference Between Arrays And Linked Lists?,Data Structures
+List Out The Basic Operations That Can Be Performed On A Stack ?,Data Structures
+State The Different Ways Of Representing Expressions?,Data Structures
+State The Advantages Of Using Infix Notations?,Data Structures
+State The Rules To Be Followed During Infix To Postfix Conversions?,Data Structures
+State The Advantages Of Using Postfix Notations?,Data Structures
+State The Difference Between Stacks And Linked Lists?,Data Structures
+Mention The Advantages Of Representing Stacks Using Linked Lists Than Arrays?,Data Structures
+Define A Deque?,Data Structures
+What Do You Mean By Shortest Path?,Data Structures
+What Do You Mean By Articulation Point?,Data Structures
+Define Biconnectivity?,Data Structures
+What Do You Mean By Tree Edge?,Data Structures
+What Do You Mean By Breadth First Search (bfs)?,Data Structures
+List The Two Important Key Points Of Depth First Search?,Data Structures
+Name Two Algorithms Two Find Minimum Spanning Tree?,Data Structures
+What Are The Two Traversal Strategies Used In Traversing A Graph,Data Structures
+Define Path In A Graph?,Data Structures
+What Is The Need For Path Compression?,Data Structures
+What Do You Mean By Disjoint Set Adt?,Data Structures
+Mention One Advantage And Disadvantage Of Using Quadratic Probing?,Data Structures
+What Is The Need For Extendible Hashing?,Data Structures
+What Do You Mean By Linear Probing?,Data Structures
+What Do You Mean By Collision In Hashing? ,Data Structures
+What Do You Mean By Hash Function?,Data Structures
+What Do You Mean By Hash Table?,Data Structures
+"What Do You Mean By The Term ""percolate Down""?",Data Structures
+"What Do You Mean By The Term ""percolate Up""?",Data Structures
+What Are The Applications Of Priority Queues?,Data Structures
+What Do You Mean By Heap Order Property?,Data Structures
+Define B-tree Of Order M?,Data Structures
+List The Types Of Rotations Available In Splay Tree?,Data Structures
+What Do You Mean By Balance Factor Of A Node In Avl Tree?,Data Structures
+What Are The Categories Of Avl Rotations?,Data Structures
+Define Left-in Threaded Tree?,Data Structures
+Define Avl Tree?,Data Structures
+What Is The Use Of Threaded Binary Tree?,Data Structures
+Why It Is Said That Searching A Node In A Binary Search Tree Is Efficient Than That Of A Simple Binary Tree?,Data Structures
+Define Ancestor And Descendant ?,Data Structures
+Define A Binary Search Tree?,Data Structures
+State The Demerits Of Linked Representation Of Binary Trees?,Data Structures
+State The Merit Of Linked Representation Of Binary Trees?,Data Structures
+What Are The Tasks Performed During Postorder Traversal?,Data Structures
+What Is Meant By Binary Tree Traversal?,Data Structures
+State The Properties Of A Binary Tree?,Data Structures
+Define A Right-skewed Binary Tree?,Data Structures
+Define A Complete Binary Tree?,Data Structures
+Define A Full Binary Tree ?,Data Structures
+Define Depth And Height Of A Tree?,Data Structures
+Define Leaves?,Data Structures
+Define Internal Nodes?,Data Structures
+Define Root?,Data Structures
+Why We Need Cursor Implementation Of Linked Lists?,Data Structures
+List The Applications Of Queues?,Data Structures
+List The Applications Of Stacks?,Data Structures
+What Are The Types Of Queues?,Data Structures
+What Are The Objectives Of Studying Data Structures?,Data Structures
+State The Difference Between Persistent And Ephemeral Data Structure?,Data Structures
+State The Difference Between Primitive And Non-primitive Data Types?,Data Structures
+What Are The Advantages Of Modularity?,Data Structures
+Define An Abstract Data Type (adt)?,Data Structures
+Define Data Type And What Are The Types Of Data Type?,Data Structures
+"Difference Between Abstract Data Type, Data Type And Data Structure?",Data Structures
+State The Difference Between Queues And Linked Lists?,Data Structures
+What are the different ways a method can be overloaded?,Object Oriented Programming
+Differentiate between an abstract class and an interface.,Object Oriented Programming
+What do you mean by data encapsulation?,Object Oriented Programming
+What is the difference between procedural and object-oriented programming?,Object Oriented Programming
+Explain the concept of destructor?,Object Oriented Programming
+Can you declare a private class in a namespace?,Object Oriented Programming
+What is a static constructor?,Object Oriented Programming
+Explain different types of inheritance.,Object Oriented Programming
+"You have defined a destructor in a class that you have developed by using the C# programming language, but the destructor never executed. Why did the destructor not execute?",Object Oriented Programming
+Is it possible to execute two catch blocks?,Object Oriented Programming
+What is the function of the Try-Catch-Finally block?,Object Oriented Programming
+What are abstract classes? What are the distinct characteristics of an abstract class?,Object Oriented Programming
+What is a delegate?,Object Oriented Programming
+What is the syntax to inherit from a class in C#?,Object Oriented Programming
+State the features of an interface.,Object Oriented Programming
+Can you use the 'throws' clause to raise an exception?,Object Oriented Programming
+Define enumeration?,Object Oriented Programming
+"In which namespace, all .NET collection classes are contained?",Object Oriented Programming
+Explain the concept of constructor?,Object Oriented Programming
+Can you inherit private members of a class?,Object Oriented Programming
+Does .NET support multiple inheritance?,Object Oriented Programming
+What is the difference between a class and a structure?,Object Oriented Programming
+What is a multicast delegate?,Object Oriented Programming
+Can you declare an overridden method to be static if the original method is not static?,Object Oriented Programming
+Why is the virtual keyword used in code?,Object Oriented Programming
+"Can you allow a class to be inherited, but prevent a method from being overridden in C#?",Object Oriented Programming
+What are similarities between a class and a structure.,Object Oriented Programming
+What are collections and generics?,Object Oriented Programming
+How can you prevent your class to be inherited further?,Object Oriented Programming
+What is the index value of the first element in an array?,Object Oriented Programming
+Can you specify the accessibility modifier for methods inside the interface?,Object Oriented Programming
+Is it possible for a class to inherit the constructor of its base class?,Object Oriented Programming
+How is method overriding different from method overloading?,Object Oriented Programming
+What is the relationship between a class and an object?,Object Oriented Programming
+Explain the basic features of OOPs.,Object Oriented Programming
+What Are Properties Of Object Oriented Systems?,Object Oriented Programming
+What Is Uml?,Object Oriented Programming
+What Is Serialize Function In Php?,Object Oriented Programming
+What Is Final Keyword In Php?,Object Oriented Programming
+What Is Object Iteration?,Object Oriented Programming
+What Is Overloading in php?,Object Oriented Programming
+What Is Scope Resolution Operator?,Object Oriented Programming
+What Are Different Visibility Of Method/property?,Object Oriented Programming
+"What Happen, If New-style Constructor & Old-style Constructor Are Defined. Which One Will Be Called?",Object Oriented Programming
+"What Happen, If Constructor Is Defined As Private Or Protected?",Object Oriented Programming
+How To Load Classes In Php?,Object Oriented Programming
+How To Call Parent Constructor?,Object Oriented Programming
+What Are Some Of The Big Changes Php Has Gone Through In The Past Few Years?,Object Oriented Programming
+What Is Data Modeling?,Object Oriented Programming
+What is a state-related codebase?,Object Oriented Programming
+How to move to a State-related Codebase?,Object Oriented Programming
+How to avoid the NULL trap?,Object Oriented Programming
+How does OO simplify development?,Object Oriented Programming
+Why do we still see so much non-OO code written in C# today?,Object Oriented Programming
+What is Dynamic Dispatch?,Object Oriented Programming
+What is the this Pointer?,Object Oriented Programming
+What is the OO fundamental idea using C# that allows a data structure to perform operations on its own data?,Object Oriented Programming
+What are the fundamental principles of OO programming?,Object Oriented Programming
+What is Composition?,Object Oriented Programming
+Give three di?erences between an interface and an abstract class in Java.,Object Oriented Programming
+Explain what it means for the treadRemaining ?eld to be private. Explain why it is good programming practice for such ?elds to be private.,Object Oriented Programming
+Identify the type of interface that Cloneable is. What is the de?ning characteristic of such interfaces,Object Oriented Programming
+Identify and explain two reasons why this code may not function as intended,Object Oriented Programming
+Write an immutable Java class Complex that represents a complex number with integer real and imaginary components. [Note: Your class should contain only methods that are essential for its use. Do not incorporate any mathematical operations in the class.,Object Oriented Programming
+"Without using Generics, adapt the class to support the use of arbitrary types to store the real and imaginary components. Give three disadvantages of this approach and comment on the immutability of the new class",Object Oriented Programming
+Give two reasons why Element should not have public state and provide a better mutable Element de?nition,Object Oriented Programming
+Explain why ArrayList and LinkedList are appropriate choices in this context.,Object Oriented Programming
+Explain the two perspectives from which an object can be viewed,Object Oriented Programming
+What advantage do designs which incorporate encapsulation enjoy?,Object Oriented Programming
+"When designing software according to the object oriented paradigm, how is the design decomposed?",Object Oriented Programming
+In what scenarios will you use a abstract class and in what scenarios will you use an interface?,Object Oriented Programming
+How is inheritance put to use in Java?,Object Oriented Programming
+State the different types of inheritance,Object Oriented Programming
+Elaborate this and super keywords,Object Oriented Programming
+What is require and include in PHP?,Object Oriented Programming
+What is the characteristic features of object-oriented programming?,Object Oriented Programming
+What is the relationship between data hiding and data mining?,Object Oriented Programming
+Regression testing in object oriented programming?,Object Oriented Programming
+Are object oriented programming and Noncommercial CFD codes appropriate for Industrial application?,Object Oriented Programming
+"In object oriented programming, which is a semantic difference to call a function ""insert"" or ""add""?",Object Oriented Programming
+What is Object-Oriented in real world (separate business logic from entity class (only get and set methods) or not)?,Object Oriented Programming
+What are the weaknesses of Object-Oriented Programming?,Object Oriented Programming
+What are examples of Object Oriented Programming's properties ?,Object Oriented Programming
+What language you suggest to teach Object-Oriented Programming besides the traditionals programming languages like C++ or Java?,Object Oriented Programming
+What is the recommended classes population size when testing a concept in object oriented programming?,Object Oriented Programming
+Can anyone explain to me the basics of OOPS concept?,Object Oriented Programming
+Can you help me with the theory behind aspect oriented programming?,Object Oriented Programming
+What is a feature of object-oriented programming?,Object Oriented Programming
+How do you find the missing number in a given integer array of 1 to 100?,Data Structures
+How do you find the duplicate number on a given integer array? ,Data Structures
+How do you find the largest and smallest number in an unsorted integer array?,Data Structures
+How do you find all pairs of an integer array whose sum is equal to a given number?,Data Structures
+How do you find duplicate numbers in an array if it contains multiple duplicates?,Data Structures
+How are duplicates removed from a given array in Java? ,Data Structures
+How is an integer array sorted in place using the quicksort algorithm? ,Data Structures
+How do you remove duplicates from an array in place?,Data Structures
+How do you reverse an array in place in Java?,Data Structures
+How are duplicates removed from an array without using any library? ,Data Structures
+How do you find the middle element of a singly linked list in one pass? ,Data Structures
+How do you check if a given linked list contains a cycle? How do you find the starting node of the cycle?,Data Structures
+How do you reverse a linked list?,Data Structures
+How do you reverse a singly linked list without recursion? ,Data Structures
+How are duplicate nodes removed in an unsorted linked list? ,Data Structures
+How do you find the length of a singly linked list? ,Data Structures
+How do you find the third node from the end in a singly linked list? ,Data Structures
+How do you find the sum of two linked lists using Stack? ,Data Structures
+How do you print duplicate characters from a string?,Data Structures
+How do you check if two strings are anagrams of each other? ,Data Structures
+How do you print the first non-repeated character from a string? ,Data Structures
+How can a given string be reversed using recursion?,Data Structures
+How do you check if a string contains only digits? ,Data Structures
+How are duplicate characters found in a string?,Data Structures
+How do you count a number of vowels and consonants in a given string?,Data Structures
+How do you count the occurrence of a given character in a string? ,Data Structures
+How do you find all permutations of a string?,Data Structures
+How do you reverse words in a given sentence without using any library method?,Data Structures
+How do you check if two strings are a rotation of each other? ,Data Structures
+How do you check if a given string is a palindrome?,Data Structures
+How is a binary search tree implemented?,Data Structures
+How do you perform preorder traversal in a given binary tree? ,Data Structures
+How do you traverse a given binary tree in preorder without recursion?,Data Structures
+How do you perform an inorder traversal in a given binary tree? ,Data Structures
+How do you print all nodes of a given binary tree using inorder traversal without recursion?,Data Structures
+How do you implement a postorder traversal algorithm?,Data Structures
+How do you traverse a binary tree in postorder traversal without recursion?,Data Structures
+How are all leaves of a binary search tree printed?,Data Structures
+How do you count a number of leaf nodes in a given binary tree? ,Data Structures
+How do you perform a binary search in a given array? ,Data Structures
+How do you implement a bucket sort algorithm?,Data Structures
+How do you implement an insertion sort algorithm?,Data Structures
+How do you implement a counting sort algorithm? ,Data Structures
+How is a radix sort algorithm implemented?,Data Structures
+How is a merge sort algorithm implemented? ,Data Structures
+How is an iterative quicksort algorithm implemented?,Data Structures

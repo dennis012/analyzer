@@ -1,0 +1,55 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+     <article class="media content-section">
+       <img class="rounded-circle article-img" src="{{object.author.profile.image.url}}" >
+       <div class="media-body">
+         <div class="article-metadata">
+           <a class="mr-2" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
+           <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+         </div>
+         <h2 class="article-title">{{ object.title }}</h2>
+         <p class="article-content">{{ object.content }}</p>
+         {% if object.author == user %}
+         <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Update</a>
+         <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Delete</a>
+         {% endif %}
+          <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+
+         <!-- <br><br>
+                   <hr>
+                   <div class="main-comment-section">
+                     {{comments.count}} Comment{{comment|pluralize}}
+                     {% for comment in comments %}
+                     <blockquote class="blockquote">
+                     <p class="mb-0">{{comment.content}}</p>
+                     <footer class="blockquote-footer">by <cite title="Source Title">{{ comment.user|capfirst }}</cite></footer>
+                     </blockquote>
+
+                     {% endfor %} -->
+
+
+
+
+         <hr>
+          {% for student_comment in comment %}
+          <blockquote class="blockquote">
+          <p class="mb-0">{{student_comment.text}}</p>
+          <footer class="blockquote-footer">by <cite title="Source Title">{{ student_comment.author|capfirst }}</cite></footer>
+          </blockquote>
+          <hr>
+              <!-- <div class="comment">
+                  <div class="date">{{ student_comment.created_date }}</div>
+                  <strong>{{ student_comment.author }}</strong>
+                  <p>{{ student_comment.text|linebreaks }}</p>
+              </div> -->
+          {% empty %}
+              <p>No comments here yet :(</p>
+          {% endfor %}
+
+
+       </div>
+     </article>
+
+{% endblock content %}

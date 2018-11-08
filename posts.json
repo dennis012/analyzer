@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Object oriented Programming",
+    "content": "What is Polymorphism? How is it supported by C++?",
+    "user_id": 1
+  },
+  {
+    "title": "OOP",
+    "content": "What is Abstraction?",
+    "user_id": 2
+  },
+  {
+    "title": "Data Structures",
+    "content": "What is the minimum number of queues needed when implementing a priority queue?",
+    "user_id": 3
+  },
+  {
+    "title": "Object oriented Programming",
+    "content": "What are binary trees?",
+    "user_id": 4
+  },
+  {
+    "title": "database question",
+    "content": "How do you login to MySql using Unix shell?",
+    "user_id": 1
+  },
+  {
+    "title": "Flask vs Django - Which Is Better?",
+    "content": "Ei dicta apeirian deterruisset eam, cu offendit invenire pri, cu possim vivendo vix? Nam nihil evertitur ad, ne vim nonumy legendos iracundia. Vix nulla dolorem intellegebat ea? Te per vide paulo dolor, eum ea erant placerat constituam? Dolores accumsan eum at.\r\n\r\nInteresset consequuntur id vix. Eam id decore latine, iusto imperdiet ei qui. In ludus consul reformidans eam. Nec in recusabo posidonium, cu tantas volumus mnesarchum pro. Nam ut docendi evertitur, possim menandri persecuti ne sed, cum saepe ornatus delenit ei?\r\n\r\nIn mel debet aliquam. In his etiam legere, doming nominavi consetetur has ad, decore reprimique ea usu. Eam magna graeci suavitate cu, facete delenit cum ne. Ponderum evertitur tincidunt ei mel, ius ei stet euismod docendi.",
+    "user_id": 5
+  },
+  {
+    "title": "how to prevent sql injection attacks?",
+    "content": "I am building a web application and am not sure of how to ensure that my web app is free from web attacks.",
+    "user_id": 2
+  },
+  {
+    "title": "Data Structures",
+    "content": "What is a bubble sort and how do you perform it?",
+    "user_id": 4
+  },
+  {
+    "title": "which is the best framework to use in python??",
+    "content": "I don't know whether to choose flask or django in my development.",
+    "user_id": 1
+  },
+  {
+    "title": "Data Structures",
+    "content": "How do stacks help in programming?",
+    "user_id": 5
+  },
+  {
+    "title": "General",
+    "content": "How do binary trees work along with different methods??",
+    "user_id": 1
+  },
+  {
+    "title": "Artificial Intelligence",
+    "content": "How are the artificial neural networks different from the naive bayes especially in text classification?",
+    "user_id": 2
+  },
+  {
+    "title": "Internet of Things",
+    "content": "How can sensors be conrolled and secured since they collect a lot of information which may prove to be sensitive?",
+    "user_id": 4
+  },
+  {
+    "title": "User Interface",
+    "content": "User interfaces are very key in design of an application but what are the essential elements to consider whn developing a user interface?",
+    "user_id": 2
+  },
+  {
+    "title": "Artificial Intelligence",
+    "content": "Naive bayes can sometimes prove to be accurate and used in text classification but which one would you guys rather pick naive bayes or svms?",
+    "user_id": 1
+  },
+  {
+    "title": "Introduction to Programming",
+    "content": "What is the difference between declaration and definition of a variable/function",
+    "user_id": 6
+  },
+  {
+    "title": "Data Structures",
+    "content": "What is the minimum number of queues needed when implementing a priority queue?",
+    "user_id": 1
+  },
+  {
+    "title": "Introduction to Programming",
+    "content": "How do you find the missing number in a given integer array of 1 to 100?",
+    "user_id": 5
+  },
+  {
+    "title": "Object Oriented Programming",
+    "content": "Which OOPS concept exposes only necessary information to the calling functions?",
+    "user_id": 2
+  },
+  {
+    "title": "Internet Of Things",
+    "content": "in order to start learning IOT do i require a good physics background?",
+    "user_id": 4
+  },
+  {
+    "title": "Artificial Intelligence",
+    "content": "What does a hybrid Bayesian network contain?",
+    "user_id": 1
+  },
+  {
+    "title": "Artificial Intelligence",
+    "content": " What is the difference between breadth first search and best first search in artificial intelligence?",
+    "user_id": 5
+  },
+  {
+    "title": "Introduction To Programming",
+    "content": "What is an algorithm and how does it work?.... are there many types of algorithm???",
+    "user_id": 2
+  },
+  {
+    "title": "Internet of Things",
+    "content": "What’s the biggest risk associated with the Internet of Things?",
+    "user_id": 1
+  }
+]
