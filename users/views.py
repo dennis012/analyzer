@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from .forms import UserRegisterForm,UserUpdateForm,ProfileUpdateForm, LoginForm
+from .forms import UserRegisterForm,UserUpdateForm,ProfileUpdateForm, LoginForm, TeacherRegisterForm
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.models import Group
 from django.contrib.auth import login as auth_login
@@ -27,7 +27,7 @@ def register(request):
 
 def register_teacher(request):
     if request.method == 'POST':
-        form = UserRegisterForm(request.POST)
+        form = TeacherRegisterForm(request.POST)
         if form.is_valid():
             # form.save()
             user = form.save(commit=False)
@@ -39,7 +39,7 @@ def register_teacher(request):
             messages.success(request, f'Your Account has been created! You are now able to login')
             return redirect('login')
     else:
-        form = UserRegisterForm()
+        form = TeacherRegisterForm()
     return render(request, 'users/register-teacher.html', {'form':form})
 
 @login_required
