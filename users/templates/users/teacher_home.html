@@ -1,0 +1,103 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <head>
+    <script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script>
+  </head>
+    <div class="container">
+      <h2>Lecturer Dashboard</h2>
+      <body>
+        <!-- <div class="content-section">
+          <h3>Our Sidebar</h3>Latest
+          <p class='text-muted'>Units available
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-light">Latest Posts</li>
+              <li class="list-group-item list-group-item-light">Announcements</li>
+              <li class="list-group-item list-group-item-light">Calendars</li>
+              <li class="list-group-item list-group-item-light">etc</li>
+            </ul>
+          </p>
+        </div> -->
+        <div id='myChart'><a class="zc-ref" href="#"></a></div>
+        <script type="text/javascript">
+
+        var myConfig = {
+         	type: 'ring',
+         	plot : {
+         	  slice : 150, // set hole size in middle of chart
+         	  detached: false // turn off click on slices
+         	},
+         	tooltip:{
+         	  visible: false
+         	},
+        //   "csv":{
+        //   "url":"/home/dennoh/Desktop/django-expo/analyzer/custom_dataset3.csv"
+        // },
+         	legend:{
+         	  toggleAction: 'remove', // remove plot so it re-calculates percentage
+         	  verticalAlign: 'middle',
+         	  align: 'center',
+         	  layout: 'vertical',
+         	  borderWidth: 0,
+         	  marker:{
+         	    type:'circle',
+         	    size:10,
+         	    cursor: 'pointer',
+         	  },
+         	  item:{
+         	    fontSize: 15,
+         	    cursor: 'pointer',
+         	    offsetX: -5
+         	  }
+         	},
+        	series : [
+        		{
+        			values : [34],
+        			backgroundColor : "#FE7A5D"
+        		},
+        		{
+        			values : [40],
+        			backgroundColor : "#69A8F8",
+        		},
+        		// {
+        		// 	values : [50],
+        		// 	backgroundColor : "#54DBB9"
+        		// },
+        		// {
+        		// 	values : [20],
+        		// 	backgroundColor : "#FEDA60"
+        		// },
+        	]
+        };
+
+        zingchart.render({
+        	id : 'myChart',
+        	data : myConfig,
+        	height: 500,
+        	width: '100%'
+        });
+
+        /*
+         * Every 35 milliseconds we will update the chart
+         * angle by 1.5 degress so it simulates rotatition
+         * animation!
+         */
+        var angle = 0;
+        setInterval(function(){
+          angle = angle + 1.5;
+          zingchart.exec('myChart', 'modify', {
+            object: 'plot',
+            data : {
+              refAngle : angle%360
+            }
+          })
+        }, 35);
+  </script>
+
+      </body>
+
+    </div>
+
+{% endblock content %}

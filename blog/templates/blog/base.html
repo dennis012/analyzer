@@ -39,7 +39,7 @@
                 <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
               {% else %}
                 <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                <a class="nav-item nav-link" href="{% url 'register_home' %}">Register</a>
               {% endif %}
             </div>
           </div>
@@ -59,7 +59,7 @@
           {% block content %}{% endblock %}
         </div>
         <div class="col-md-4">
-          <div class="content-section">
+          <!-- <div class="content-section">
             <h3>Our Sidebar</h3>Latest
             <p class='text-muted'>Units available
               <ul class="list-group">
@@ -69,7 +69,7 @@
                 <li class="list-group-item list-group-item-light">etc</li>
               </ul>
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </main>

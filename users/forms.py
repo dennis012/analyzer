@@ -5,10 +5,12 @@ from .models import Profile
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField()
-    course = forms.CharField()
+
     class Meta:
-        model = User
-        fields = ['username','email','course','password1','password2']
+        model = Profile
+        #model = UserProfile
+        # fields = ['username','email','password1','password2',]
+        fields = []
 
 class UserUpdateForm(forms.ModelForm):
     email = forms.EmailField()
@@ -21,3 +23,12 @@ class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields =['image']
+
+class TeacherRegisterForm(UserCreationForm):
+    class Meta:
+        model = User
+        fields = ['username', 'email', 'password1', 'password2']
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label='username')
+    password = forms.CharField(label='password',widget=forms.PasswordInput)

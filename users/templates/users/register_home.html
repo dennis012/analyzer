@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <div class="container">
+      <h2>Sign up Home</h2>
+      <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'register'  %}">Signup as Student</a>
+      <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'register_teacher' %}">Signup as Teacher</a>
+    </div>
+
+{% endblock content %}
